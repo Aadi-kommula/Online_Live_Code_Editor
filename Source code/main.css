@@ -169,7 +169,7 @@ body {
   max-width: 500px;
   margin: auto;
   margin-top: 80px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   text-align: center;
   color: #ddd;
   font-family: sans-serif;
@@ -237,4 +237,20 @@ body {
  .panel-wrapper {
    flex: 1;
    margin: 10px;
+ }
+ .github button{
+  color: #ffff;
+  background-color: green;
+  justify-content: center;
+  text-align: center;
+  margin-left: 46.7%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 5px;
+  border: none;
+ }
+ .github button:hover{
+  border-radius: 55px;
+  transition: all 0.1s ease-in-out;
+  scale: 1.1;
  }

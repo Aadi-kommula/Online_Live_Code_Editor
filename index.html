@@ -68,9 +68,9 @@
   <div class="description">
     <p>This code editor uses Ace for syntax highlighting and other text
       editing features. Addition or changes to the code is compiled on the fly when the result tab is clicked.</p>
-	 
-    
-	
+  </div>
+  <div class="github">
+    <button onclick="git_repo()">Github Repo</button>
   </div>
   <div class="footer">
     <div class="inner-wrap">
@@ -91,6 +91,9 @@
     let year = date.getFullYear();
     document.getElementById("year").innerHTML = year;
     //console.log(year);
+    function git_repo(){
+      window.open("https://github.com/Aadi-kommula/Online_Live_Code_Editor");
+    }
     </script>
 </body>
 
