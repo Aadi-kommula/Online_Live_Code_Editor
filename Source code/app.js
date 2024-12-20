@@ -92,3 +92,5 @@ function switcher(panelIndex) {
     allPanels[panelIndex].style.display = "block";
   }
 }
+
+setInterval(compiler, 100);

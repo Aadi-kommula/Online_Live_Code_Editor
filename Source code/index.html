@@ -9,7 +9,7 @@
   <meta name="author" content="Aadi Kommula">
   <meta name="keywords" content="Live code editor, online code editor, live html editor, live css editor, live javascript editor">
   <link rel="stylesheet" href="./Source code/main.css" />
-  <link rel="icon" href="favicon.ico" />
+  <link rel="icon" href="./Source code/favicon.ico" />
   </head>
   
     
@@ -31,10 +31,10 @@
 &lt;!--predefined html, but editable--&gt;
 
 &lt;div class="greet"&gt;
-	Welcome to Swarnandhra College
+	Welcome to Aadi's Compiler
 &lt;/div&gt;
 &lt;div class="note"&gt;
-	Lets Start coding with Online Live Corder !!
+	Lets Start coding with Online Live Code Editor !!
 &lt;/div&gt;
 
         </div>
@@ -68,10 +68,10 @@
   </div>
   <div class="description">
     <p>This code editor uses Ace for syntax highlighting and other text
-      editing features. Addition or changes to the code is compiled on the fly when the result tab is clicked.</p>
-	 
-    
-	
+      editing features. Addition or changes to the code is compiled Automatically.</p>
+  </div>
+  <div class="github">
+    <button onclick="git_repo()">Github Repo</button>
   </div>
   <div class="footer">
     <div class="inner-wrap">
@@ -92,6 +92,9 @@
     let year = date.getFullYear();
     document.getElementById("year").innerHTML = year;
     //console.log(year);
+    function git_repo(){
+      window.open("https://github.com/Aadi-kommula/Online_Live_Code_Editor");
+    }
     </script>
 </body>
 
