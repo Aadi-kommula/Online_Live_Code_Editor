@@ -93,4 +93,4 @@ function switcher(panelIndex) {
   }
 }
 
-setInterval(compiler, 100);
+//setInterval(compiler, 100);
